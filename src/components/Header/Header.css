@@ -1,0 +1,23 @@
+.Header {
+   display: flex;
+   color: rgb(83, 91, 105);
+   align-items: center;
+   margin-left: 20px;
+   margin-top: 20px;
+}
+
+.Header__update {
+   padding-top: 10px;
+   width: 32px;
+   height: 32px;
+   margin-left: 15px;
+   background-color: transparent;
+   border: 1px solid #000;
+   border-radius: 50%;
+   font-size: 25px;
+   padding-bottom: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: rgb(83, 91, 105);
+}

@@ -1,0 +1,28 @@
+.Notes-List {
+   margin-top: 20px;
+   margin-bottom: 10px;
+   display: flex;
+   color: rgb(83, 91, 105);
+}
+
+.Notes-List__Item {
+   font-size: 14px;
+   width: 160px;
+   position: relative;
+   border: 1px solid #000;
+   margin-left: 20px;
+   padding: 10px;
+   border-radius: 5px;
+}
+
+.Notes-List__Item_remove {
+   position: absolute;
+   top: -12px;
+   right: -12px;
+   background-color: #fff;
+   border: 1px solid #000;
+   border-radius: 50%;
+   width: 24px;
+   height: 24px;
+   text-align: center;
+}

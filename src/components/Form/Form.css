@@ -1,0 +1,46 @@
+.Notes-form {
+   display: flex;
+   margin-left: 20px;
+   margin-top: 20px;
+   color: rgb(83, 91, 105);
+}
+
+.Notes-Field {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   margin-right: 20px;
+}
+
+.label {
+   margin-bottom: 15px;
+}
+
+.Form-button {
+   color: rgb(83, 91, 105);
+   height: 30px;
+   width: 50px;
+   margin-top: auto;
+   background-color: transparent;
+   border: 1px solid #000;
+   width: 32px;
+   height: 32px;
+   border-radius: 50%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.Notes-Control {
+   box-sizing: border-box;
+   height: 80px;
+   width: 240px;
+   border: 1px solid #000;
+   color: rgb(83, 91, 105);
+   padding-left: 10px;
+}
+
+.Watces-Control:focus {
+   outline: none;
+   border: 2px solid #eb92be;
+}
